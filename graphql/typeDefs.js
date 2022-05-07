@@ -1,4 +1,5 @@
 const { gql } = require("apollo-server");
+//the ! mark means that it's required to return that type (type safety)
 module.exports = gql`
   type Post {
     id: ID!
