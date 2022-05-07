@@ -1,5 +1,9 @@
 const { gql } = require("apollo-server");
+<<<<<<< HEAD:graphql/typeDefs.js
 
+=======
+//the ! mark means that it's required to return that type (type safety)
+>>>>>>> 8474157953f380fe403de87f3013116aff733ea1:graphql/typeDef.js
 module.exports = gql`
   type Post {
     id: ID!
