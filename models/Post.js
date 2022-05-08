@@ -18,7 +18,7 @@ const postSchema = new Schema({
   ],
   user: {
     type: Schema.Types.ObjectId,
-    ref: "users",
+    ref: "users",//"users" is a collection that allows mongoose to automatically populate this users field without use of other methods
   },
 });
 module.exports = model("Post", postSchema);

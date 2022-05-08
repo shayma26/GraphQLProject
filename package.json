@@ -10,11 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.7.0",
-<<<<<<< HEAD
-    "bcryptjs": "^2.4.3",
-=======
     "bcrypt": "^5.0.1",
->>>>>>> 8474157953f380fe403de87f3013116aff733ea1
+    "bcryptjs": "^2.4.3",
     "graphql": "^16.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.2"
